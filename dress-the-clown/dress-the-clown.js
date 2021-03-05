@@ -63,7 +63,7 @@ function changeClownHeadRev () {
     }
     
   } else if (clothingIndex === 2) {
-    var shoesVar = document.getElementById("head");
+    var shoesVar = document.getElementById("shoes");
     shoesVar.src = "./images/shoes" + shoesIndex + ".png";
     if (shoesIndex > 0) {
       shoesIndex--;
